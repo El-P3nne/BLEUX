@@ -1,0 +1,1335 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+/*-------------------------- Header ---------------------------*/
+
+#cabecilla{
+    height: 10vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1b142b;
+}
+
+.contenedor{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+}
+
+.menu a:hover{
+    color:  rgb(152, 150, 150);
+    transition: 0.3s;
+}
+
+.link{
+    text-decoration: none;
+    color: white
+}
+
+.linkBoton{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15.8px;
+
+}
+
+.boton{
+    height: 50px;
+    width: 25%;
+    background: linear-gradient(#0385c2, #b01cdd);
+    border-radius: 5px;
+}
+
+/*--------------------------- Primera sección -------------------------------------*/
+
+#seccion{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/hojasFondo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 770px;
+    position: relative;
+}
+
+#seccion ::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh; 
+    background: #2f2450;
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    z-index: -1;
+    background-position: top;
+    background-size: cover;
+}
+
+.contenedor2{
+    width: 75%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.parte1{
+   
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.parte2{
+   
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.celcho{
+    height: 425px;
+}
+
+.botonContenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 60%;
+    border: 2px grey solid;
+    border-radius: 3px;
+}
+
+.titulo{
+    font-size: 80px;
+    margin: 0px;
+    width: 60%;
+}
+
+.parrafo{
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+.descarga{
+    height: 40px;
+    width: 47.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px white solid;
+    
+}
+
+.descarga a{
+    color: #f3218d;
+    text-decoration: none;
+}
+
+.segundaOpcion{
+    height: 40px;
+    width: 47.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background: transparent;
+    border: 2px white solid;
+    border-radius: 3px;
+}
+
+.segundaOpcion a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* ----------------------- Segunda sección ------------------------------- */
+
+#seccion2{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: whitesmoke;
+}
+
+.contenedor3{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    height: 65vh;
+}
+
+.titulo2{
+    font-size: 50px;
+    margin: 10px;
+    color: #f51586;
+}
+
+.imagen{
+    height: 275px;
+    width: 450px;
+}
+
+.parte3{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    height: 53vh;
+    align-items: center;
+}
+
+.parte4{
+    width: 45%;
+    height: 53vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitulo{
+    font-size: 50px;
+    margin: 10px 0px;
+    font-weight: lighter;
+    color: #c64c8b;
+}
+
+.parrafo2{
+    font-size: 18px;
+    width: 80%;
+    font-weight: lighter;
+}
+
+.subtitulo2{
+    font-weight: lighter;
+    font-size: 27px;
+    margin: 8px 0px;
+    color: #f51586;
+}
+
+.lista{
+    padding: 0 5%;
+}
+
+.lista li{
+    list-style-image: url(../Assets/Check.png);
+}
+
+/*--------------------- Tercer sección ----------------------*/
+
+#seccion3{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1f162f;
+}
+
+.titulo3{
+    font-size: 50px;
+    margin: 15px 0;
+    color: white;
+}
+
+.parrafo3{
+    width: 50%;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.contenedor4{
+    height: 90vh;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenido{
+    background: white;
+    height: 80vh;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+}
+
+.subtitulo3{
+    margin: 5px 0px;
+    color: #f51586;
+}
+
+.subtitulo4{
+    margin: 5px 0px;
+    color: #1f162f;
+}
+
+.beneficios{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.beneficios li{
+    padding: 5px 25px;
+}
+
+.rosa{
+    list-style-image: url(../Assets/estrella\ rosa.png);
+}
+
+.check{
+    list-style-image: url(../Assets/check\ 2.png);
+}
+
+.check2{
+    list-style-image: url(../Assets/check\ 2\ pink.png);
+}
+
+.noCheck{
+    list-style-image: url(../Assets/No-check.png);
+}
+
+.estrella{
+    list-style-image: url(../Assets/estrella.png);
+}
+
+.precio{
+    background: #f5f5f5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.valor{
+    font-size: 40px;
+    margin: 0px 5px;
+}
+
+.parrafo4{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+}
+
+.seccionBoton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+}
+
+.subBoton1{
+    height: 40px;
+    width: 60%;
+    border-radius: 3px;
+    background: #f9449f;
+    border: 0px;
+}
+
+.subBoton1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.subBoton2{
+    height: 40px;
+    width: 60%;
+    border-radius: 3px;
+    background: #1f162f;
+    border: 0px;
+}
+
+.subBoton2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/*-------------------Footer------------------------*/
+
+#pie{
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor5{
+    width: 70%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    width: 42.5%;
+}
+
+.pedazoRosa{
+    color: #f9449f;
+}
+
+.contenido3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    font-size: 20px;
+    
+}
+
+.contenido3 a{
+    color: #1f162f;
+    text-decoration: none;
+}
+
+
+/*-------------------- Responsive ----------------------------------*/
+
+@media (min-width: 1921px) and  (max-width: 2560px){
+
+    .link{
+        font-size: 28px;
+    }
+
+    .boton{
+        height: 80px;
+    }
+
+    .boton a{
+        font-size: 28px;
+    }
+
+    .logo{
+        width: 250px;
+    }
+    
+    #seccion {
+        background-position: 1280px;
+    }
+
+    .titulo{
+        font-size: 120px;
+    }
+
+    .parrafo{
+        font-size: 50px;
+    }
+
+    .botonContenedor{
+        height: 90px;
+    }
+
+    .botonContenedor a{
+        font-size: 27px;
+    }
+
+    .descarga{
+        height: 75px;
+    }
+
+    .segundaOpcion{
+        height: 75px;
+    }
+
+    .celcho{
+        height: 800px;
+    }
+
+    .titulo2{
+        font-size: 80px;
+    }
+
+
+    #seccion2{
+        height: 60vh;
+    }
+
+    .contenedor3{
+        height: 60vh;
+    }
+
+    .parte3{
+        height: 48vh;
+    }
+
+    .parte4{
+        height: 48vh;
+    }
+
+    .imagen {
+        height: 475px;
+        width: 650px;
+    }
+
+    .subtitulo{
+        font-size: 80px;
+    }
+
+    .parrafo2{
+        font-size: 30px;
+    }
+
+    .subtitulo2{
+        font-size: 60px;
+    }
+
+    .lista li{
+        font-size: 25px;
+
+        list-style: url(../Assets/check\ L.png);
+    }
+
+    .titulo3{
+        font-size: 100px;
+        margin: 30px 0;
+    }
+    
+    .parrafo3{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .contenido{
+        justify-content: space-between;
+    }
+
+    .icono{
+        width: 150px;
+        height: 150px;
+    }
+
+    .subtitulo3{
+        font-size: 40px;
+    }
+
+    .subtitulo4{
+        font-size: 40px;
+    }
+
+    .valor{
+        font-size: 60px;
+    }
+
+    .plazo{
+        font-size: 25px;
+    }
+
+    .rosa{
+       font-size: 30px;
+       list-style-image: url(../Assets/estrella-rosa-L.png);
+    }
+    
+    .check{
+        font-size: 30px;
+        list-style-image: url(../Assets/check\ 2\ L.png);
+    }
+    
+    .check2{
+        font-size: 30px;
+        list-style-image: url(../Assets/check\ 2\ pink\ L.png);
+    }
+    
+    .noCheck{
+        font-size: 30px;
+        list-style-image: url(../Assets/No-check-L.png);
+    }
+    
+    .estrella{
+        font-size: 30px;
+        list-style-image: url(../Assets/estrella-L.png);
+    }
+
+    .parrafo4{
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .seccionBoton{
+        height: 80px;
+        
+    }
+
+    .seccionBoton a{
+        font-size: 25px;
+    }
+
+    .subBoton1{
+        height: 60px;
+    }
+
+    .subBoton2{
+        height: 60px;
+    }
+
+    .parrafoPie{
+        font-size: 25px;
+    }
+
+    .pedazoRosa{
+        font-size: 25px;
+    }
+
+    .contenido3{
+        font-size: 35px;
+    }
+    
+}
+
+
+/*--------------------------------------------------------*/
+
+@media(min-width: 769px) and  (max-width: 1024px) {
+
+    .link{
+        font-size: 14px;
+    }
+
+    .boton{
+        height: 40px;
+    }
+
+    .boton a{
+        font-size: 14px;
+    }
+
+    .logo{
+        width: 125px;
+    }
+    
+    #seccion {
+        background-position: 512px;
+    }
+
+    .titulo{
+        font-size: 70px;
+    }
+
+    .parrafo{
+        font-size: 22.5px;
+    }
+
+    .botonContenedor{
+        height: 50px;
+    }
+
+    .botonContenedor a{
+        font-size: 11px;
+    }
+
+    .descarga{
+        height: 40px;
+    }
+
+    .segundaOpcion{
+        height: 40px;
+    }
+
+    .celcho{
+        height: 450px;
+    }
+
+    .titulo2{
+        font-size: 60px;
+    }
+
+
+    #seccion2{
+        height: 65vh;
+    }
+
+    .contenedor3{
+        height: 65vh;
+    }
+
+    .parte3{
+        height: 50vh;
+    }
+
+    .parte4{
+        height: 50vh;
+    }
+
+    .imagen {
+        height: 175px;
+        width: 350px;
+    }
+
+    .subtitulo{
+        font-size: 40px;
+    }
+
+    .parrafo2{
+        font-size: 16px;
+    }
+
+    .subtitulo2{
+        font-size: 22.5px;
+    }
+
+    .lista li{
+        font-size: 15px;
+
+        list-style: url(../Assets/Check.png);
+    }
+
+    .titulo3{
+        font-size: 60px;
+        margin: 15px 0;
+    }
+    
+    .parrafo3{
+        font-size: 16px;
+        margin: 10px 0;
+        width: 80%;
+    }
+
+    .contenido{
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    .icono{
+        width: 70px;
+        height: 70px;
+    }
+
+    .subtitulo3{
+        font-size: 20px;
+    }
+
+    .subtitulo4{
+        font-size: 20px;
+    }
+
+    .valor{
+        font-size: 27px;
+    }
+
+    .plazo{
+        font-size: 15px;
+    }
+
+    .rosa{
+       font-size: 15px;
+       list-style-image: url(../Assets/estrella\ rosa.png);
+    }
+    
+    .check{
+        font-size: 15px;
+        list-style-image: url(../Assets/check\ 2.png);
+    }
+    
+    .check2{
+        font-size: 15px;
+        list-style-image: url(../Assets/check\ 2\ pink.png);
+    }
+    
+    .noCheck{
+        font-size: 15px;
+        list-style-image: url(../Assets/No-check.png);
+    }
+    
+    .estrella{
+        font-size: 15px;
+        list-style-image: url(../Assets/estrella.png);
+    }
+
+    .parrafo4{
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .seccionBoton{
+        height: 40px;
+        
+    }
+
+    .seccionBoton a{
+        font-size: 15px;
+    }
+
+    .subBoton1{
+        height: 30px;
+    }
+
+    .subBoton2{
+        height: 30px;
+    }
+
+    .contenido2{
+        width: 63%;
+    }
+
+    .parrafoPie{
+        font-size: 15px;
+    }
+
+    .pedazoRosa{
+        font-size: 15px;
+    }
+
+    .contenido3{
+        font-size: 20px;
+    }
+
+    .contenido3{
+        width: 20%;
+    }
+    
+}
+
+/*------------------------------------------------------*/
+
+
+@media (min-width: 481px) and  (max-width: 768px){
+
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .link{
+        font-size: 11px;
+    }
+
+    .boton{
+        height: 40px;
+    }
+
+    .boton a{
+        font-size: 11px;
+    }
+
+    .logo{
+        width: 125px;
+    }
+    
+    #seccion {
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+    }
+
+    .contenedor2{
+        height: 70vh;
+    }
+
+    .parte1{
+        height: 70vh;
+    }
+
+    .parte2{
+        height: 70vh;
+    }
+
+    .titulo{
+        font-size: 60px;
+    }
+
+    .parrafo{
+        font-size: 20px;
+        margin: 25px 0;
+    }
+
+    .botonContenedor{
+        height: 50px;
+        width: 80%;
+    }
+
+    .botonContenedor a{
+        font-size: 11px;
+    }
+
+    .descarga{
+        height: 40px;
+    }
+
+    .segundaOpcion{
+        height: 40px;
+    }
+
+    .celcho{
+        height: 450px;
+    }
+
+    .titulo2{
+        font-size: 55px;
+    }
+
+
+    #seccion2{
+        height: 55vh;
+    }
+
+    .contenedor3{
+        height: 55vh;
+    }
+
+    .parte3{
+        height: 45vh;
+    }
+
+    .parte4{
+        height: 45vh;
+    }
+
+    .imagen {
+        height: 175px;
+        width: 350px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .parrafo2{
+        font-size: 13px;
+    }
+
+    .subtitulo2{
+        font-size: 20px;
+    }
+
+    .lista li{
+        font-size: 13px;
+
+        list-style: url(../Assets/Check.png);
+    }
+
+    #seccion3{
+        height: 100vh;
+    }
+
+    .contenedor4{
+        height: 70vh;
+        width: 80%;
+    }
+
+    .titulo3{
+        font-size: 60px;
+        margin: 15px 0;
+    }
+    
+    .parrafo3{
+        font-size: 16px;
+        margin: 10px 0;
+        width: 80%;
+    }
+
+    .contenido{
+        justify-content: space-between;
+        width: 30%;
+        height: 65vh;
+    }
+
+    .icono{
+        width: 60px;
+        height: 60px;
+    }
+
+    .subtitulo3{
+        font-size: 20px;
+    }
+
+    .subtitulo4{
+        font-size: 20px;
+    }
+
+    .valor{
+        font-size: 27px;
+    }
+
+    .plazo{
+        font-size: 15px;
+    }
+
+    .rosa{
+       font-size: 13px;
+       list-style-image: url(../Assets/estrella\ rosa.png);
+    }
+    
+    .check{
+        font-size: 13px;
+        list-style-image: url(../Assets/check\ 2.png);
+    }
+    
+    .check2{
+        font-size: 13px;
+        list-style-image: url(../Assets/check\ 2\ pink.png);
+    }
+    
+    .noCheck{
+        font-size: 13px;
+        list-style-image: url(../Assets/No-check.png);
+    }
+    
+    .estrella{
+        font-size: 13px;
+        list-style-image: url(../Assets/estrella.png);
+    }
+
+    .parrafo4{
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .seccionBoton{
+        height: 40px;
+        
+    }
+
+    .seccionBoton a{
+        font-size: 12px;
+    }
+
+    .subBoton1{
+        height: 30px;
+    }
+
+    .subBoton2{
+        height: 30px;
+    }
+
+    .contenido2{
+        width: 60%;
+    }
+
+    #pie{
+        height: 8vh;
+    }
+
+    .contenedor5{
+        height: 8vh;
+    }
+
+    .parrafoPie{
+        font-size: 10px;
+    }
+
+    .pedazoRosa{
+        font-size: 10px;
+    }
+
+    .contenido3{
+        font-size: 16px;
+    }
+
+    .contenido3{
+        width: 20%;
+    }
+    
+}
+
+/*---------------------------------------------*/
+
+@media (min-width: 361px) and (max-width: 480px) {
+
+    #cabecilla{
+        height: 25vh;
+    }
+
+    .contenedor{
+        height: 20vh;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .link{
+        font-size: 13px;
+    }
+
+    .boton{
+        height: 40px;
+    }
+
+    .boton a{
+        font-size: 13px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .menu{
+        width: 100%;
+    }
+    
+    #seccion {
+        background-position: center;
+        background-size: cover;
+        height: 70vh;
+    }
+
+    .contenedor2{
+        height: 70vh;
+        justify-content: space-between;
+        width: 85%;
+    }
+
+    .parte1{
+        height: 70vh;
+    }
+
+    .parte2{
+        height: 70vh;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .parrafo{
+        font-size: 15px;
+        margin: 25px 0;
+    }
+
+    .botonContenedor{
+        height: 30px;
+        width: 90%;
+    }
+
+    .botonContenedor a{
+        font-size: 7px;
+    }
+
+    .descarga{
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .segundaOpcion{
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .segundaOpcion a{
+        height: 12px;
+    }
+
+    .celcho{
+        height: 250px;
+    }
+
+    .titulo2{
+        font-size: 35px;
+    }
+
+
+    #seccion2{
+        height: 40vh;
+    }
+
+    .contenedor3{
+        height: 30vh;
+    }
+
+    .parte3{
+        height: 30vh;
+    }
+
+    .parte4{
+        height: 30vh;
+    }
+
+    .imagen {
+        height: 75px;
+        width: 250px;
+    }
+
+    .subtitulo{
+        font-size: 15px;
+    }
+
+    .parrafo2{
+        font-size: 8px;
+    }
+
+    .subtitulo2{
+        font-size: 12px;
+    }
+
+    .lista li{
+        font-size: 8px;
+
+        list-style: url(../Assets/Check.png);
+    }
+
+    #seccion3{
+        height: 240vh;
+    }
+
+    .contenedor4{
+        height: 205vh;
+        width: 80%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .titulo3{
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    
+    .parrafo3{
+        font-size: 12px;
+        margin: 10px 0;
+        width: 80%;
+    }
+
+    .contenido{
+        justify-content: space-between;
+        width: 100%;
+        height: 65vh;
+    }
+
+    .icono{
+        width: 60px;
+        height: 60px;
+    }
+
+    .subtitulo3{
+        font-size: 20px;
+    }
+
+    .subtitulo4{
+        font-size: 20px;
+    }
+
+    .valor{
+        font-size: 27px;
+    }
+
+    .plazo{
+        font-size: 15px;
+    }
+
+    .rosa{
+       font-size: 13px;
+       list-style-image: url(../Assets/estrella\ rosa.png);
+    }
+    
+    .check{
+        font-size: 13px;
+        list-style-image: url(../Assets/check\ 2.png);
+    }
+    
+    .check2{
+        font-size: 13px;
+        list-style-image: url(../Assets/check\ 2\ pink.png);
+    }
+    
+    .noCheck{
+        font-size: 13px;
+        list-style-image: url(../Assets/No-check.png);
+    }
+    
+    .estrella{
+        font-size: 13px;
+        list-style-image: url(../Assets/estrella.png);
+    }
+
+    .parrafo4{
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .seccionBoton{
+        height: 40px;
+        
+    }
+
+    .seccionBoton a{
+        font-size: 12px;
+    }
+
+    .subBoton1{
+        height: 30px;
+    }
+
+    .subBoton2{
+        height: 30px;
+    }
+
+    .contenido2{
+        width: 60%;
+    }
+
+    #pie{
+        height: 8vh;
+    }
+
+    .contenedor5{
+        height: 8vh;
+        width: 85%;
+    }
+
+    .parrafoPie{
+        font-size: 7px;
+    }
+
+    .pedazoRosa{
+        font-size: 7px;
+    }
+
+    .contenido3{
+        font-size: 9px;
+    }
+
+    .contenido3{
+        width: 20%;
+    }
+    
+ }
